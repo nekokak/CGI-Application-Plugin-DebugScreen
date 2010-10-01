@@ -8,8 +8,9 @@ WriteMakefile1(
             repository => 'http://github.com/nekokak/CGI-Application-Plugin-DebugScreen',
         },
     },
-    #BUILD_REQUIRES => {
-    #},
+    BUILD_REQUIRES => {
+        'Test::More' => 0,
+    },
 
     NAME              => 'CGI::Application::Plugin::DebugScreen',
     VERSION_FROM      => 'lib/CGI/Application/Plugin/DebugScreen.pm',
