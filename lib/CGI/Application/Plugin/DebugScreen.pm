@@ -1,5 +1,6 @@
 package CGI::Application::Plugin::DebugScreen;
 
+use 5.006;
 use strict;
 use warnings;
 use HTML::Template;
