@@ -18,7 +18,7 @@ WriteMakefile1(
         HTML::Template    => 0,
         Devel::StackTrace => 0,
         IO::File          => 0,
-        CGI::Application  => 0,
+        CGI::Application  => 4.0,
         CGI::Application::Plugin::ViewCode => 0,
         UNIVERSAL::require => '0.10',
     },
