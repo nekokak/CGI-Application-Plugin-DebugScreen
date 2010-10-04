@@ -175,7 +175,8 @@ sub import {
 
 sub debug_report{
     my $self = shift;
-    my $desc = shift;
+    my $desc = '' . shift; #stringify
+                           #useful in case of exception from CGI::Application::Plugin::TT
     my $url = $self->query->url(-path_info=>1,-query=>1);
 
     my $title = ref $self || $self;

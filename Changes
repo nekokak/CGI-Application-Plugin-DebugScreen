@@ -1,5 +1,7 @@
 Revision history for Perl extension CGI::Application::Plugin::DebugScreen.
 
+        - stringify exception (RT#34070, Bradley C Bailey)
+
 0.06 Jan 20 2006
         - No code change.
         - Version no change and POD was corrected a little. 
