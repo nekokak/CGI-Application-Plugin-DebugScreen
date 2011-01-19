@@ -1,5 +1,9 @@
 Revision history for Perl extension CGI::Application::Plugin::DebugScreen.
 
+1.00
+    2011-01-19
+        - fixed Makefile.PL (RT#64904)
+
 0.07
     2010-10-05
         - stringify exception (RT#34070, Bradley C Bailey) (thanks chorny)

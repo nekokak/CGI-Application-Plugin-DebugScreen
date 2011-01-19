@@ -8,7 +8,7 @@ use Devel::StackTrace;
 use IO::File;
 use UNIVERSAL::require;
 
-our $VERSION = '0.07';
+our $VERSION = '1.00';
 
 our $A_CODE = '<a class="package" href="?rm=view_code&amp;module=';
 our $A_POD  = '<a class="package" href="?rm=view_pod&amp;module=';
